@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/tooplate_fp_wrapper.jpg);
+    background-repeat: no-repeat;
+}
+.menu-bar {
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+.menu-bar .links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(204, 159, 33);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 20px;
+    
+}
+.menu-bar .links a:hover {
+    cursor: pointer;
+    color: white;
+    transition: 2s left;
+}
+.zamuka {
+    text-align: left;
+    font-family: Segoe Print;
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+}
+.zamuka span {
+    color: red;
+}
+.footer {
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+.footer footer {
+    color: white;
+    font-family: sans-serif;
+}
+.footer footer a{
+    color: yellowgreen;
+    margin-top: 20px;
+}
+.map {
+    text-align: right;
+}
+.map iframe {
+    margin-left: 200px;
+}
+h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -300px;
+    margin-left: 550px;
+}
+label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"], input[type="email"] {
+    padding: 6px 50px;
+    background: rgb(24, 24, 23);
+    border: 1px solid black;
+    color: white;
+}
+textarea[id="text"] {
+    height: 150px;
+    width: 300px;
+    background: rgb(24, 24, 23);
+    border: 1px solid black;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+    padding: 6px 20px;
+    background: rgb(24, 24, 23);
+    border: 1px solid black;
+}
+input[type="reset"] {
+    padding: 6px 20px;
+    background: rgb(24, 24, 23);
+    border: 1px solid black;
+    margin-left: 146px;
+}
+h6 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail {
+    text-align: center;
+    margin-top: -500px;
+    margin-left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail a{
+    color: yellowgreen;
+}
+.body {
+    width: 100%;
+    height: 400px;
+    background: rgb(34, 36, 31);
+    margin-top: 120px;
+}
+form {
+    margin-top: -100px;
+    margin-left: 150px;
+}
+h5 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+#map iframe {
+    margin-left: 500px;
+}
+.mail h4 {
+    margin-left: -30px;
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
